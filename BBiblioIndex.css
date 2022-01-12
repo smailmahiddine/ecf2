@@ -1,0 +1,937 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(210, 218, 241);
+}
+
+/* haut de page*/
+.container {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  background-color: rgb(190, 226, 238);
+  height: 100%;
+  vertical-align: middle;
+
+}
+.contenu{
+  height: 100px;
+}
+.accueil * {
+  background-color: rgb(211, 205, 240);
+  font: 18px bold;
+  height: 35px;
+  width: 300px;
+  border: 3px solid black;
+  text-align: center;
+  margin-top: 5%;
+  
+
+}
+button:hover{
+  background-color: rgb(190, 226, 238);
+}
+.logo {
+  width: 75px;
+  height: 100px;
+  float: left;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.accueil {
+  display: grid;
+  grid-template-columns: 10% 30% 30% 30%;
+  vertical-align: middle;
+}
+
+.connexion {
+  display: block;
+  text-align: center;
+  font: 15px bold;
+  padding-top: 5%;
+}
+.connexion label{
+  width: 150px;
+  display: block;
+}
+.valider{
+  width : 100px;
+  height: 25px;
+  font: 15px bold;
+}
+#msg {
+  color: red;
+}
+
+/* footer*/
+footer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: cornsilk;
+  text-align: center;
+  margin-top: 10%;
+ 
+}
+footer img {
+  width: 30px;
+  height: 20px;
+}
+footer a {
+  color: dodgerblue;
+}
+.reseaux {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+}
+.texte {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+}
+.texte div {
+  margin-top: 1%;
+}
+footer button{
+  background-color: rgb(211, 205, 240)
+}
+
+/* index class centre*/
+.titredulivre img {
+  float: left;
+  padding-right: 10px;
+  padding-left: 5px;
+  width: 50px;
+}
+.titredulivre {
+  line-height: 44px;
+}
+
+.titre {
+  text-align: center;
+  width: 75%;
+  margin-left: 5%;
+}
+
+select {
+  height: 30px;
+  background-color: rgb(156, 143, 143);
+}
+a:hover {
+  color: rgb(194, 12, 12);
+}
+#button:hover {
+  background-color: darkgoldenrod;
+}
+.ligne1, .ligne3{
+  background-color: rgb(240, 226, 226);
+}
+
+.table1>th {
+  background-color: darkkhaki;
+  height: 45px;
+}
+.historique {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.item1 {
+  grid-column: 1 / span 3;
+}
+
+
+.table1 img {
+  width: 40px;
+  height: 40px;
+}
+.table1 {
+  border: 3px solid black;
+  width: 90%;
+  border-collapse: collapse;
+  
+}
+
+.centre {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  margin-top: 10%;
+}
+.fluxreseaux {
+  border: 1px solid;
+  height: 500px;
+  width: 250px;
+  overflow-y: scroll;
+  background-color: rgb(243, 233, 233);
+  margin-top: 10%;
+  margin-right: 0;
+}
+
+/*page auteur*/
+
+.inscription {
+  display: block;
+  border: 2px solid;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.information {
+  display: grid;
+  grid-template-columns: auto auto;
+  font: 30px bold;
+}
+.information
+h2 {
+  text-decoration: underline;
+}
+.motivation p {
+  font: 20px bold;
+}
+h2 {
+  text-align: center;
+}
+.information1 {
+  display: block;
+  padding: 40px;
+}
+.information2 {
+  display: block;
+  padding-top: 40px;
+}
+.information1 > div {
+  margin-top: 20px;
+  padding: 5px;
+  font: 15px bold;
+}
+.information2 > div {
+  margin-top: 20px;
+  padding: 5px;
+  font: 15px bold;
+}
+#submit {
+  margin-left: 550px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(158, 101, 101);
+}
+.submit > p {
+  text-align: center;
+}
+#button:hover {
+  background-color: darkgoldenrod;
+}
+
+/*Page formulaire demande Jury*/
+
+.inscription {
+  display: block;
+  border: 2px solid;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.information {
+  display: grid;
+  grid-template-columns: auto auto;
+  font: 30px bold;
+}
+.information,
+h2 {
+  text-decoration: underline;
+}
+.motivation p {
+  font: 20px bold;
+}
+h2 {
+  text-align: center;
+}
+.information1 {
+  display: block;
+  padding: 40px;
+}
+.information2 {
+  display: block;
+  padding-top: 40px;
+}
+.information1 > div {
+  margin-top: 20px;
+  padding: 5px;
+  font: 15px bold;
+}
+.information2 > div {
+  margin-top: 20px;
+  padding: 5px;
+  font: 15px bold;
+}
+#submit {
+  margin-left: 550px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(158, 101, 101);
+}
+.motivation {
+  text-align: center;
+}
+.submit > p {
+  text-align: center;
+}
+a:hover {
+  color: rgb(194, 12, 12);
+}
+#button:hover {
+  background-color: rgb(241, 7, 7);
+}
+
+/* page notes données */
+.notesDonees{
+  width: 60%;
+}
+ .tableaux th {
+    border: 2px solid;
+    width: 80%;
+    height: 5%
+  }
+  .notesDonees button{
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+
+.tableaux td{
+    border: 1px solid;
+    width: 30%;
+    height: 5%
+  }
+.tableau2{
+  padding-bottom: 25%;
+}
+.tableau3{
+  padding-bottom: 10%;
+}
+  
+
+
+/* page oeuvres inscrites */
+
+.oeuvres {
+  width: 75%;
+  border-collapse: collapse;
+  margin: 5%;
+}
+.oeuvres *{
+  border: 1px solid black;
+  text-align: center;
+  
+}
+.oeuvres{
+  margin-bottom: 20%;
+}
+td, th{
+  height: 35px;
+  width: 200px;
+}
+
+th{
+  background-color: burlywood;
+}
+.oeuvresinscrites{
+  margin: 5% 5% 21% 15% ;
+  
+  width: 50%;
+}
+
+.note{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.oeuvresinscrites .titre{
+margin-left: 15%;
+margin-top: 5%;
+font: 30px bold;
+border: 2px solid;
+width: 50%;
+text-align: center;
+
+}
+
+/* page admin */
+.menuAdmin {
+  width: 100%;
+  padding-left: 30%;
+}
+.menuAdmin *{
+  font: 15px solid bold;
+}
+.tableaux  {
+  margin-left: 30%;
+  width: 60%;
+}
+.affichage>h3{
+  text-align: center;
+  font-size: 30px;
+}
+.tableaux>table{
+  border: 3px, bold;
+}
+.section2,
+.section3 {
+  display: none;
+}
+.section3>table{
+  background-color: rgb(112, 111, 109);
+}
+.section2>table{
+  background-color: burlywood;
+}
+
+/* page Auteur */
+.auteur {
+  border: 2px solid rgb(5, 5, 5);
+  margin-top: 5%;
+  width: 70%;
+  margin: 5% 20%;
+}
+.auteur1{
+  display: grid;
+  grid-template-columns: 30% 60%;
+}
+.references img {
+  width: 100%;
+  height: 300px;
+  padding-bottom: 15%;
+}
+
+.oeuvres {
+  display: block;
+  text-align: center;
+  align-items: center;
+  
+}
+.oeuvres input{
+  width: 250px;
+  height: 35px;
+}
+.titrelivre * {
+ border: none;
+}
+.titrelivre label{
+  font: 25px bold
+}
+.auteur2 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.auteur textarea{
+  width: 100%;
+  height: 90%;
+  margin-top: 2%;
+}
+
+.references *{
+  width: 100%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+.oeuvres {
+  display: block;
+  width: 100%;
+  height: 90%;
+}
+
+.buttonauteur2 {
+  font: 20px bold;
+}
+
+
+/* page Jury */
+
+.jury {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 80px;
+  padding: 25px;
+  text-align: center;
+}
+h2 {
+  background-color: rgb(247, 243, 243);
+  background-size: auto;
+  width: 200px;
+  text-align: center;
+  margin-left: 40%;
+}
+.jury1,
+.jury2,
+.jury3,
+.jury4 {
+  border: 2px solid;
+  padding: 5px;
+}
+.selection_notes{
+  text-align: justify;
+  margin-bottom: 1%;
+}
+.selection_notes label{
+  margin-left: 25%;
+ 
+}
+.selection_notes select{
+  white-space: normal;
+}
+.selection_notes label{
+  width: 50%;
+}
+.valider_notes{
+  padding: 1%;
+}
+
+.lien{
+  text-align: center;
+  margin-left: 35%;
+  padding: 1%;
+}
+
+
+
+/* page palmares */
+.container2 div {
+  display: flex;
+  margin-top: 5%;
+  padding: 40px;
+}
+.container2 > div > div {
+  display: block;
+  padding-inline: 80px;
+  text-align: center;
+}
+.container2 h3 {
+  text-decoration: underline;
+  color: green;
+}
+
+.container2 img {
+  width: 250px;
+  height: 450px;
+}
+/*formulaire demande participation concours*/
+
+.inscriptionAuteur {
+  display: block;
+  border: 2px solid;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 17%;
+}
+.informationAuteur {
+  display: grid;
+  grid-template-columns: auto auto;
+  font: 30px bold;
+}
+
+
+.informationAuteur1 > div {
+  margin-top: 20px;
+  padding: 5px;
+  font: 15px bold;
+}
+.informationAuteur2 > div {
+  margin-top: 20px;
+  padding: 5px;
+  font: 15px bold;
+  padding-top: 20px;
+}
+.informationAuteur1 label{
+  display: block;
+}
+
+.informationAuteur2 label{
+  display: block;
+}
+.auteurSubmit {
+  margin-left: 550px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(158, 101, 101);
+}
+.submit > p {
+  text-align: center;
+}
+#button:hover {
+  background-color: darkgoldenrod;
+}
+
+
+/* page profil */
+
+.auteur_information {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  font: 30px bold;
+  padding-top: 12%;
+}
+.civilite{
+  text-decoration: underline;
+}
+.auteur_information label{
+	display: inline-block; 
+	width: 150px;
+}
+.information2 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding-top: 40px;
+}
+.information1 > div {
+  margin-top: 20px;
+  padding: 5px;
+  font: 15px bold;
+}
+.information2 > div {
+  margin-top: 20px;
+  padding: 5px;
+  font: 15px bold;
+}
+
+/* page Réglement */
+
+.articles > li {
+  display: block;
+  margin: 10px;
+  background-color: rgb(240, 232, 232);
+}
+.centre {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-top: 5%;
+}
+.fluxreseaux {
+  border: 1px solid;
+  overflow-y: scroll;
+  background-color: rgb(180, 150, 150);
+  height: 650px;
+}
+.articles {
+  margin-top: 7%;
+  border: 1px solid;
+  overflow-y: scroll;
+  width: 90%;
+  height: 650px;
+  background-color: rgb(156, 143, 143);
+}
+.articles h2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1%;
+  margin-left: 15%;
+  background-color: #7a817a;
+  border: 2px solid #1f201f;
+  width: 60%
+}
+.fluxreseaux{
+  width: 70%;
+}
+/* page réinitialisation mot de passe */
+.centres {
+  margin-left: 5%;
+  border: 2px solid;
+  text-align: center;
+  margin-top: 10%;
+  padding-bottom: 9%;
+}
+span {
+  font: italic bold 12px/30px cursive;
+}
+.centres p {
+  padding: 2%;
+}
+.centres h3 {
+  font: italic bold 20px cursive;
+}
+#submit {
+  background-color: chartreuse;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 2%;
+  
+}
+#msg2 {
+  color: red;
+}
+.reinitialisation label{
+  display: inline-block;
+  width: 350px;
+  padding-bottom: 2%;
+}
+
+/* page serge*/
+
+.commander {
+  width: 200px;
+}
+.apropos {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin: 10%;
+  margin-bottom: 18%;
+}
+.infos {
+  text-align: center;
+}
+div h3 {
+
+  text-decoration: underline;
+  color: chocolate;
+}
+a:hover {
+  color: rgb(194, 12, 12);
+}
+/* page formulaire de contact */
+
+.formContact{
+  display: block;
+  border: 2px solid;
+  width: 75%;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 17%;
+  
+}
+.civilite{
+  text-decoration: none;
+}
+.formContact{
+  
+  padding: 5%;
+  width: 80%;
+}
+.h2formContact{
+  width: 60%;
+  text-align: center;
+}
+.formContact11{
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+.formContact1A div{
+  padding-top: 5%;
+}
+.infoContact input{
+  width: 100%;
+}
+.infoContact label{
+  text-align: left;
+  margin-left: 0%;
+}
+.formContact1B textarea{
+  margin-left: 15%;
+}
+.contactSubmit{
+  margin-left: 40%;
+  width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: rgb(180, 103, 103);
+  }
+  #contenu {
+    padding-bottom: 80px;
+  }
+  .container {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .connexion {
+    display: block;
+  }
+  .accueil {
+    display: block;
+  }
+  .accueil ul {
+    margin-left: 10%;
+  }
+  .accueil img {
+    margin-left: 20%;
+  }
+  h3 {
+    display: block;
+  }
+  .footer {
+    display: block;
+  }
+  .pointreglement {
+    display: none;
+  }
+  .centre {
+    display: block;
+    padding-top: 10%;
+  }
+  
+  .palmares {
+    display: block;
+  }
+  .historique {
+    display: block;
+    padding-top: 20%;
+  }
+  .historique h3 {
+    display: none;
+  }
+  footer > div {
+    display: block;
+  }
+  footer,
+  .reseaux,
+  .texte {
+    display: block;
+  }
+  .titre2 {
+    display: none;
+  }
+}
+.fluxreseaux h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.animation{
+  margin-top: 5%;
+}
+.animation,img{
+  width: 80%;
+  height: 250px;
+  margin-left: 5%;
+}
+.animation h2{
+ 
+  font: italic bold  50px Georgia, serif;
+}
