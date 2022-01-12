@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="BBiblioIndex.css" />
+    <title>Document</title>
+  </head>
+<body>
+  <div class="contenu">
+    <div class="container">
+        <div class="accueil" > 
+          <button class="logo" onclick="myFunction3()"><img  src="logo.png" class="logo" alt=""></button>
+          <button class="lien" onclick="myFunction1()"> Le réglement détaillé du concours</button>
+          <button class="lien" onclick="myFunction2()">Oeuvres inscrites au concours</button>      
+          <p id="counter" class="counter"></p>   
+        </div>
+        <div class="connexion">
+          <div>
+            <label for="identifiant"></label>
+            <input type="text" id="identifiant" class="identifiant" name="identifiant" placeholder="Identifiant">
+          </div>
+          <div>
+            <label for="mdp" ></label>
+            <input id="mdp" placeholder="Mot de passe">
+          </div>
+          <div >
+            <button type="submit" onclick="validate()" class="valider">Valider</button></div>
+          <p id="msg"></p>
+        </div>
+    </div>
+  </div>
+<div class="oeuvresinscrites">
+  <span class="titre">Liste des livres inscrits au concours</span>
+    <table class="oeuvres">
+        <tr>
+            <th>Titre du livre</th>
+            <th>Auteur</th>
+            <th>Catégorie</th>
+ 
+        </tr>
+        <tr>
+            <td>l'opium et le batton</td>
+            <td>Mouloud Mameri</td>
+            <td>Meilleur Roman Français</td>
+        </tr>
+        <tr>
+            <td>l'opium et le batton</td>
+            <td>Mouloud Mameri</td>
+            <td>Meilleur Roman Français</td>
+        </tr>
+        <tr>
+            <td>l'opium et le batton</td>
+            <td>Mouloud Mameri</td>
+            <td>Meilleur Roman Français</td>
+        </tr>
+        <tr>
+            <td>l'opium et le batton</td>
+            <td>Mouloud Mameri</td>
+            <td>Meilleur Roman Français</td>
+        </tr>
+        <tr>
+            <td>l'opium et le batton</td>
+            <td>Mouloud Mameri</td>
+            <td>Meilleur Roman Français</td>
+        </tr>
+        <tr>
+            <td>l'opium et le batton</td>
+            <td>Mouloud Mameri</td>
+            <td>Meilleur Roman Français</td>
+        </tr>
+        <tr>
+            <td>l'opium et le batton</td>
+            <td>Mouloud Mameri</td>
+            <td>Meilleur Roman Français</td>
+        </tr>
+        <tr>
+            <td>l'opium et le batton</td>
+            <td>Mouloud Mameri</td>
+            <td>Meilleur Roman Français</td>
+        </tr>
+        <tr>
+            <td>l'opium et le batton</td>
+            <td>Mouloud Mameri</td>
+            <td>Meilleur Roman Français</td>
+        </tr>
+        <tr>
+            <td>l'opium et le batton</td>
+            <td>Mouloud Mameri</td>
+            <td>Meilleur Roman Français</td>
+        </tr>
+    </table>
+</div>
+<footer>
+      <div class="reseaux">
+        <div class="facebook">
+          <a href=""> <img src="facebook.jpeg" alt="" /></a>
+        </div>
+        <div class="tweeter">
+          <a href=""> <img src="indeed.jpeg" alt="" /></a>
+        </div>
+        <div class="instagram">
+          <a href=""> <img src="instagram.jpeg" alt=""/></a>
+        </div>
+      </div>
+      
+      <div class="texte">
+        <button class="lien" onclick="myFunction4()"> Nous contacter</button>
+        <button class="lien" onclick="myFunction6()"> Participer au concours</button>
+        <button class="lien" onclick="myFunction5()"> Devenir membre de jury</button>
+      </div>
+    </footer>
+    <script src="BBiblioIndex.js"></script>  
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="BBiblioIndex.css" />
+    <title>Document</title>
+  </head>
+  <body>
+<div class="contenu">
+    <div class="container">
+        <div class="accueil" > 
+          <button class="logo" onclick="myFunction3()"><img  src="logo.png" class="logo" alt=""></button>
+          <button class="lien" onclick="myFunction1()"> Le réglement détaillé du concours</button>
+          <button class="lien" onclick="myFunction2()"> Oeuvres inscrites au concours</button>      
+          <p id="counter" class="counter"></p>   
+        </div>
+        <div class="connexion">
+          <div>
+            <label for="identifiant"></label>
+            <input type="text" id="identifiant" class="identifiant" name="identifiant" placeholder="Identifiant">
+          </div>
+          <div>
+            <label for="mdp" ></label>
+            <input id="mdp" placeholder="Mot de passe">
+          </div>
+          <div >
+            <button type="submit" onclick="validate()" class="valider">Valider</button></div>
+          <p id="msg"></p>
+        </div>
+    </div>
+  </div>
+<div class="container2">
+    <div class="année2019">
+     <h3>Année 2019</h3>
+        <div class="Meilleur Roman Français">
+            <img  src="img1.png" alt=""/>
+            <h4> Titre : Serge</h4>
+            <h4> Par Yasmina REZA</h4>
+            <h4>Catégorie: Meilleur Roman Français</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleur Roman Etranger">
+         <img src="img2.png" alt=""/>
+         <h4> Titre Ces Orages-là</h4>
+            <h4> Par Sandrine Collette  </h4>
+            <h4>catégorie: Meilleur Roman Etranger</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleur Documentaire">
+         <img src="img3.png" alt=""/>
+            <h4> Titre La Lune du Chasseur</h4>
+            <h4> par Philip CAPUTO</h4>
+            <h4>catégorie: Meilleur Documentaire</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleure Biographie">
+            <img src="img4.png"  alt=""/>
+            <h4> Titre: Récits de la soif</h4>
+            <h4> Par Leslie JAMISON </h4>
+            <h4>catégorie: Meilleure Biographie</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+    </div>
+    <div class="année2018">
+    <h3>Année 2018</h3>
+        <div class="Meilleur Roman Français">
+            <img src="livre1.png" alt=""/>
+            <h4> Le retour du prodige</h4>
+            <h4> Bernard Lejuge </h4>
+            <h4>catégorie: Meilleur Roman Français</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleur Roman Etranger">
+            <img src="livre4.png" alt=""/>
+            <h4> le jour et la nuit</h4>
+            <h4> par yasmina KHADRA </h4>
+            <h4>catégorie: Meilleur Roman Etranger</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleur Documentaire">
+            <img src="livre4.png" alt=""/>
+            <h4> l'incompris</h4>
+            <h4> Nils Angevin </h4>
+            <h4>catégorie: Meilleur Documentaire</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleure Biographie">
+            <img src="livre4.png" alt=""/>
+            <h4> Ange et démons</h4>
+            <h4> par Dan BROWN </h4>
+            <h4>catégorie: Meilleure Biographie</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+    </div>
+    <div class="année2017">
+    <h3>Année 2017</h3>
+        <div class="Meilleur Roman Français">
+            <img src="livre4.png" alt=""/>
+            <h4> Le retour du prodige</h4>
+            <h4> Bernard Lejuge </h4>
+            <h4>catégorie: Meilleur Roman Français</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleur Roman Français">
+            <img src="livre4.png" alt=""/>
+            <h4> Le retour du prodige</h4>
+            <h4> Bernard Lejuge </h4>
+            <h4>catégorie: Meilleur Roman Etranger</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleur Roman Français">
+            <img src="livre4.png" alt=""/>
+            <h4> Le retour du prodige</h4>
+            <h4> Bernard Lejuge </h4>
+            <h4>catégorie: Meilleur Documentaire</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleur Roman Français">
+            <img src="livre4.png" alt=""/>
+            <h4> Le retour du prodige</h4>
+            <h4> Bernard Lejuge </h4>
+            <h4>catégorie: Meilleure Biographie</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+    </div>
+    <div class="année2016">
+    <h3>Année 2016</h3>
+        <div class="Meilleur Roman Français">
+            <img src="livre4.png" alt=""/>
+            <h4> Le retour du prodige</h4>
+            <h4> Bernard Lejuge </h4>
+            <h4>catégorie: Meilleur Roman Français</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleur Roman Français">
+            <img src="livre4.png" alt=""/>
+            <h4> Le retour du prodige</h4>
+            <h4> Bernard Lejuge </h4>
+            <h4>catégorie: Meilleur Roman Etranger</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleur Roman Français">
+            <img src="livre4.png" alt=""/>
+            <h4> Le retour du prodige</h4>
+            <h4> Bernard Lejuge </h4>
+            <h4>catégorie: Meilleur Documentaire</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+        <div class="Meilleur Roman Français">
+            <img src="livre4.png" alt=""/>
+            <h4> Le retour du prodige</h4>
+            <h4> Bernard Lejuge </h4>
+            <h4>catégorie: Meilleure Biographie</h4>
+            <button onclick="myFunction7()">Plus d'informations</button>
+        </div>
+    </div>
+</div>
+<footer>
+      <div class="reseaux">
+        <div class="facebook">
+          <a href=""> <img src="facebook.jpeg" alt="" /></a>
+        </div>
+        <div class="tweeter">
+          <a href=""> <img src="indeed.jpeg" alt="" /></a>
+        </div>
+        <div class="instagram">
+          <a href=""> <img src="instagram.jpeg" alt=""/></a>
+        </div>
+      </div>
+      
+      <div class="texte">
+        <button class="lien" onclick="myFunction4()"> Nous contacter</button>
+        <button class="lien" onclick="myFunction6()"> Participer au concours</button>
+        <button class="lien" onclick="myFunction5()"> Devenir membre de jury</button>
+      </div>
+    </footer>
+    <script src="BBiblioIndex.js"></script>  
+  </body>
+</html>

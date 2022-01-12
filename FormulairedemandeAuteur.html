@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="BBiblioIndex.css" />
+  </head>
+  <body>
+<div class="contenu">
+    <div class="container">
+        <div class="accueil" > 
+          <button class="logo" onclick="myFunction3()"><img  src="logo.png" class="logo" alt=""></button>
+          <button class="lien" onclick="myFunction1()"> Le réglement détaillé du concours</button>
+          <button class="lien" onclick="myFunction2()">Oeuvres inscrites au concours</button>      
+          <p id="counter" class="counter"></p>   
+        </div>
+        <div class="connexion">
+          <div>
+            <label for="identifiant"></label>
+            <input type="text" id="identifiant" class="identifiant" name="identifiant" placeholder="Identifiant">
+          </div>
+          <div>
+            <label for="mdp" ></label>
+            <input id="mdp" placeholder="Mot de passe">
+          </div>
+          <div >
+            <button type="submit" onclick="validate()" class="valider">Valider</button></div>
+          <p id="msg"></p>
+        </div>
+    </div>
+</div>
+    <div class="inscriptionAuteur">
+        <h2>Demande  de participation au concours </h2>
+        <div class="informationAuteur">
+            <div class="informationAuteur1">
+                 <div> Civilité :
+                     <input type="radio" name="civilite"> Mme <input type="radio" name="civilite"> M.</div>
+                <div>
+                  <label for="nomAuteur" > Nom : </label>
+                  <input type="text" id="nomAuteur" name="nom" value="">
+                </div>
+                <div>
+                  <label for="prenomAuteur">Prénom: </label>
+                    <input type="text" id="prenomAuteur" name="prénom" value=""></div>
+                <div>
+                  <label for="adresseAuteur">Adresse:</label> 
+                  <input type="text" name="Adresse" id="adresseAuteur" value=""></div>
+                <div>
+                  <label for="paysAuteur"> Pays: </label> 
+                  <input type="text" name="Pays" id="paysAuteur" value=""></div>
+            </div>
+            <div class="informationAuteur2">
+                <div>
+                  <label for="mailAuteur">Adresse mail :</label> 
+                  <input type="text" name="email" id="mailAuteur" value="">
+                </div>
+                <div>
+                  <label for="confmailAuteur">Confirmation mail:</label> 
+                  <input type="text" name="email" id="confmailAuteur" value="">
+                </div>
+                <div>
+                  <label for="edition"> Maison d'édition</label> 
+                  <input type="text" id="edition" name="email" value="">
+                </div>
+                <div>
+                  <label for="nombreLivres">Nombre de livres à mettre en compétition:  </label>
+                  <input type="number" name="nombrelivre" id="nombreLivres" value="">
+                </div>
+            </div>
+        </div>
+        <div class="submit"> 
+            <p> *une fois votre demande traitée, une  réponse par mail est envoyée avec tous les détails nécessaires.*  </p>
+            <button id="submit" class="auteurSbmit" type="submit" > Soumettre </button>
+        </div>
+    </div>
+    <footer>
+      <div class="reseaux">
+        <div class="facebook">
+          <a href=""> <img src="facebook.jpeg" alt="" /></a>
+        </div>
+        <div class="tweeter">
+          <a href=""> <img src="indeed.jpeg" alt="" /></a>
+        </div>
+        <div class="instagram">
+          <a href=""> <img src="instagram.jpeg" alt=""/></a>
+        </div>
+      </div>
+      
+      <div class="texte">
+        <button class="lien" onclick="myFunction4()"> Nous contacter</button>
+        <button class="lien" onclick="myFunction6()"> Participer au concours</button>
+        <button class="lien" onclick="myFunction5()"> Devenir membre de jury</button>
+      </div>
+    </footer>
+    <script src="BBiblioIndex.js"></script>  
+  </body>
+</html>

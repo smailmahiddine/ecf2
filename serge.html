@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="BBiblioIndex.css" />
+    <title>Document</title>
+  </head>
+<body>
+<div class="contenu">
+    <div class="container">
+        <div class="accueil" > 
+          <button class="logo" onclick="myFunction3()"><img  src="logo.png" class="logo" alt=""></button>
+          <button class="lien" onclick="myFunction1()"> Le réglement détaillé du concours</button>
+          <button class="lien" onclick="myFunction2()"> Oeuvres inscrites au concours</button>      
+          <p id="counter" class="counter"></p>   
+        </div>
+        <div class="connexion">
+          <div>
+            <label for="identifiant"></label>
+            <input type="text" id="identifiant" class="identifiant" name="identifiant" placeholder="Identifiant">
+          </div>
+          <div>
+            <label for="mdp" ></label>
+            <input id="mdp" placeholder="Mot de passe">
+          </div>
+          <div >
+            <button type="submit" onclick="validate()" class="valider">Valider</button></div>
+          <p id="msg"></p>
+        </div>
+    </div>
+  </div>
+<div class="apropos">
+    <div class="infos">
+        <img src="img1.png" alt=""/>
+        <h4> Titre : Serge</h4>
+        <h4> Par Yasmina REZA</h4>
+        <h4>Catégorie: Meilleur Roman Français</h4>
+        <button class="lien" onclick="myFunction8()">commander</button>
+    </div>
+    <div>
+        <h3>A propos de l'auteur</h3>
+        <p><a href="https://fr.wikipedia.org/wiki/Yasmina_Reza">Yasmina Reza</a> est née le 1er mai 1959, d'un père, Jean Reza, irano-russe, arrivé de Moscou3, ingénieur, issu d’une famille nomade et désargentée4 et d’une mère violoniste, originaire de Hongrie, arrivée en France pour fuir le communisme5. Elle étudie le théâtre et la sociologie à l'université de Nanterre. Elle est mère d'une fille née en 1988 et d'un fils né en 1993.</p>
+        <h3>Synospis "Serge"</h3>
+        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p></div>
+</div>
+<footer>
+      <div class="reseaux">
+        <div class="facebook">
+          <a href=""> <img src="facebook.jpeg" alt="" /></a>
+        </div>
+        <div class="tweeter">
+          <a href=""> <img src="indeed.jpeg" alt="" /></a>
+        </div>
+        <div class="instagram">
+          <a href=""> <img src="instagram.jpeg" alt=""/></a>
+        </div>
+      </div>
+      
+      <div class="texte">
+        <button class="lien" onclick="myFunction4()"> Nous contacter</button>
+        <button class="lien" onclick="myFunction6()"> Participer au concours</button>
+        <button class="lien" onclick="myFunction5()"> Devenir membre de jury</button>
+      </div>
+    </footer>
+    <script src="BBiblioIndex.js"></script>  
+  </body>
+</html>

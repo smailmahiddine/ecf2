@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="BBiblioIndex.css"/>
+    <title>Document</title>
+  </head>
+
+  <body>
+
+  <div class="contenu">
+    <div class="container">
+        <div class="accueil" > 
+          <button class="logo" onclick="myFunction3()"><img  src="logo.png" class="logo" alt=""></button>
+          <button class="lien" onclick="myFunction1()"> Le réglement détaillé du concours</button>
+          <button class="lien" onclick="myFunction2()"> Oeuvres inscrites au concours</button>      
+          <p id="counter" class="counter"></p>   
+        </div>
+        <div class="connexion">
+          <div>
+            <label for="identifiant"></label>
+            <input type="text" id="identifiant" class="identifiant" name="identifiant" placeholder="Identifiant">
+          </div>
+          <div>
+            <label for="mdp" ></label>
+            <input id="mdp" placeholder="Mot de passe">
+          </div>
+          <div >
+            <button type="submit" onclick="validate()" class="valider">Valider</button></div>
+          <p id="msg"></p>
+        </div>
+    </div>
+  </div>
+    <div class="centres">
+          <h3> Formulaire de création du mot de passe </h3>
+          <p>Vous avez reçu le mot de passe provisoire par mail</p>
+          <div>
+              <label>Merci de saisir votre mot de passe provisoire</label> 
+              <input id="mdpprovisire">
+          </div>
+          <p> **  Merci de saisir votre nouveau mot de passe  contenant au minimun 10 cacartéres, incluant une miniscule, une majuscule, un chiffre et un caractère spécial **</p>
+          <div class="reinitialisation">
+              <div>
+                  <label>Votre nouveau mot de passe </label>
+                  <input id="mdp1">
+              </div>
+              <div>
+                  <label>Confirmation du nouveau  mot de passe </label>
+                  <input id="mdp2">
+              </div>
+              <button id="submit" type="submit" onclick="validate()" > soumettre  </button> 
+          </div>
+          
+          <span id="msg2"></span>
+    </div>
+  <footer>
+      <div class="reseaux">
+        <div class="facebook">
+          <a href=""> <img src="facebook.jpeg" alt="" /></a>
+        </div>
+        <div class="tweeter">
+          <a href=""> <img src="indeed.jpeg" alt="" /></a>
+        </div>
+        <div class="instagram">
+          <a href=""> <img src="instagram.jpeg" alt=""/></a>
+        </div>
+      </div>
+      
+      <div class="texte">
+        <button class="lien" onclick="myFunction4()"> Nous contacter</button>
+        <button class="lien" onclick="myFunction6()"> Participer au concours</button>
+        <button class="lien" onclick="myFunction5()"> Devenir membre de jury</button>
+      </div>
+    </footer>
+    <script src="BBiblioIndex.js"></script>  
+  </body>
+</html>

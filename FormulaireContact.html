@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BBiblioIndex.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="accueil" >
+           
+          <button class="logo" onclick="myFunction3()"><img  src="logo.png" alt="" class="logo"></button>
+          <button class="lien" onclick="myFunction1()"> Le réglement détaillé du concours</button>
+          <button  class="lien" onclick="myFunction2()">Oeuvres inscrites au concours</button>      
+           <div id="counter" class="counter"> </div>   
+        </div>
+
+        <div class="connexion">
+          <div>
+            <label for="identifiant"></label>
+            <input type="text" id="identifiant" class="identifiant" name="identifiant" placeholder="Identifiant">
+          </div>
+          <div>
+            <label for="mdp" ></label>
+            <input id="mdp" placeholder="Mot de passe">
+          </div>
+          <div >
+            <button type="submit" onclick="validate()" class="valider">Valider</button></div>
+          <p id="msg"></p>
+    </div>
+    </div>
+  <main>
+        <div class="formContact">
+            <h2 class="h2formContact">Formulaire de contact </h2>
+            <div class="formContact1">
+              <div class="formContact11">
+                <div class="formContact1A">
+                    <div class="civilite"> 
+                        <label>Civilité :</label>
+                        <input type="radio" name="civilite"> Mme
+                        <input type="radio" name="civilite"> M.
+                    </div>
+                    <div class="infoContact">
+                        <div>
+                          <label for="nomContact" > Nom : </label>
+                          <input type="text" id="nomContact" name="nomContact" value="">
+                        </div>
+                        <div>
+                          <label for="prenomContact">Prénom: </label>
+                            <input type="text" id="prenomContact" name="prenomContact" value=""></div>
+                        <div>
+                          <label for="adresseContact">Adresse:</label> 
+                          <input type="text" name="AdresseContact" id="adresseContact" value=""></div>
+                        <div>
+                          <label for="paysContact"> Pays: </label> 
+                          <input type="text" name="PaysContact" id="paysContact" value=""></div>
+                        <div>
+                          <label for="mailContact">Adresse mail :</label> 
+                          <input type="email" id="mailContact" name="mailContact" value="">
+                        </div>
+                    </div>
+                </div>
+                <div class="formContact1B">
+                      <textarea name="message_text" id="message_text" cols="50" rows="20"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="submit">
+              <button  class="contactSubmit" type="submit" >Envoyer </button>
+            </div>
+        </div>
+  </main>
+
+    <footer>
+      <div class="reseaux">
+        <div class="facebook">
+          <a href=""> <img src="facebook.jpeg" alt="" /></a>
+        </div>
+        <div class="tweeter">
+          <a href=""> <img src="indeed.jpeg" alt="" /></a>
+        </div>
+        <div class="instagram">
+          <a href=""> <img src="instagram.jpeg" alt=""/></a>
+        </div>
+      </div>
+      
+      <div class="texte">
+        <button class="lien" onclick="myFunction4()"> Nous contacter</button>
+        <button class="lien" onclick="myFunction6()"> Participer au concours</button>
+        <button class="lien" onclick="myFunction5()"> Devenir membre de jury</button>
+      </div>
+    
+    </footer>
+    <script src="BBiblioIndex.js"></script>  
+  </body>
+</html>
